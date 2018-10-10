@@ -39,6 +39,11 @@
     "preset": "ts-jest",
     "collectCoverageFrom": [
       "src/*.{ts,tsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/build/",
+      "/dist/"
     ]
   },
   "browserslist": [
@@ -48,5 +53,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rakannimer/ts-component-component"
-  }
+  },
+  "files": [
+    "dist/"
+  ]
 }

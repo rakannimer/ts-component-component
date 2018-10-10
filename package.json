@@ -1,6 +1,6 @@
 {
   "name": "ts-component-component",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "license": "MIT",
@@ -11,7 +11,8 @@
     "test:i": "jest --coverage --watch",
     "prepublish": "npm run test && npm run build",
     "commit": "git-cz",
-    "setup:semantic-release": "npx semantic-release-cli setup"
+    "setup:semantic-release": "npx semantic-release-cli setup",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",

@@ -24,7 +24,7 @@ ReactDOM.render(
               setState({ toggle: !state.toggle });
             }}
           >
-            toggle-button
+            Toggle
           </button>
         </div>
       );

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { renderAndAddProps } from "render-and-add-props";
 function cleanProps<T>(props: ComponentProps<T>): Partial<ComponentProps<T>> {
   let {
